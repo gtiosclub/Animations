@@ -1,0 +1,6 @@
+framework module Pods_iOSAnimations {
+  umbrella header "Pods-iOSAnimations-umbrella.h"
+
+  export *
+  module * { export * }
+}
