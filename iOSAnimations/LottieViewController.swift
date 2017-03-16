@@ -24,10 +24,10 @@ class LottieViewController: UIViewController {
         
         self.view.addSubview(lottieView!)
         
-//        lottieView?.play()
+        lottieView?.play()
     
-        let gr = UIPanGestureRecognizer(target: self, action: #selector(self.handlePan(recognizer:)))
-        self.view.addGestureRecognizer(gr)
+//        let gr = UIPanGestureRecognizer(target: self, action: #selector(self.handlePan(recognizer:)))
+//        self.view.addGestureRecognizer(gr)
     }
 
     override func didReceiveMemoryWarning() {

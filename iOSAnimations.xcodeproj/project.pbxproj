@@ -18,7 +18,7 @@
 		9ABF4B4C1E7237090036C645 /* iOSAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF4B4B1E7237090036C645 /* iOSAnimationsTests.swift */; };
 		9ABF4B571E7237090036C645 /* iOSAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF4B561E7237090036C645 /* iOSAnimationsUITests.swift */; };
 		9ABF4B671E7262540036C645 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF4B661E7262540036C645 /* LottieViewController.swift */; };
-		9ABF4B691E7262A90036C645 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF4B681E7262A90036C645 /* animation.json */; };
+		9AD0D74B1E78B5420027368E /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0D74A1E78B5420027368E /* animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		9ABF4B561E7237090036C645 /* iOSAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAnimationsUITests.swift; sourceTree = "<group>"; };
 		9ABF4B581E7237090036C645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ABF4B661E7262540036C645 /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
-		9ABF4B681E7262A90036C645 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animation.json; path = ../../../animation.json; sourceTree = "<group>"; };
+		9AD0D74A1E78B5420027368E /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animation.json; path = extras/animation.json; sourceTree = SOURCE_ROOT; };
 		AD8975A0F7A3AAEC4E025580 /* Pods-iOSAnimationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAnimationsUITests/Pods-iOSAnimationsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C831D1C82BE28A831B7E7446 /* Pods-iOSAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimations.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAnimations/Pods-iOSAnimations.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,7 +121,7 @@
 				9ABF4B361E7237090036C645 /* AppDelegate.swift */,
 				9ABF4B381E7237090036C645 /* ViewController.swift */,
 				9ABF4B3A1E7237090036C645 /* Main.storyboard */,
-				9ABF4B681E7262A90036C645 /* animation.json */,
+				9AD0D74A1E78B5420027368E /* animation.json */,
 				9ABF4B3D1E7237090036C645 /* Assets.xcassets */,
 				9ABF4B3F1E7237090036C645 /* LaunchScreen.storyboard */,
 				9ABF4B421E7237090036C645 /* Info.plist */,
@@ -291,8 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABF4B411E7237090036C645 /* LaunchScreen.storyboard in Resources */,
+				9AD0D74B1E78B5420027368E /* animation.json in Resources */,
 				9ABF4B3E1E7237090036C645 /* Assets.xcassets in Resources */,
-				9ABF4B691E7262A90036C645 /* animation.json in Resources */,
 				9ABF4B3C1E7237090036C645 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
